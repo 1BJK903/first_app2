@@ -3,7 +3,7 @@
 development:
   adapter: msyql2
   encoding: utf8
-  database: first_app2_development
+  database: firstproject
   username: root
   password: root
   socket: /tmp/mysql.sock 
