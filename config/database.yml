@@ -1,8 +1,12 @@
 # SQLite version 3.x
 #   gem install sqlite3-ruby (not necessary on OS X Leopard)
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: msyql2
+  encoding: utf8
+  database: first_app2_development
+  username: root
+  password: root
+  socket: /tmp/mysql.sock 
   pool: 5
   timeout: 5000
 
